@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-.navbar-default{
-    height: 80px;
-    border-color: #fff;
+.navbar{
+    border: #fff;
     opacity: 0.6;
+    font-size: 20px;
     
 }
-
 .bg{
     /* The image used */
   background-image: url("images/bg_img.jpg");
@@ -18,21 +17,24 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  overflow: auto;
 }
 
-#footer{
+footer{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 2cm;
-  padding-top: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
   background-color:#28328c;
   color: white;
   text-align: center;
   opacity: 0.9;
   font-family: 'Indie Flower', cursive;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 a:link, a:visited {
@@ -48,3 +50,30 @@ a:hover, a:active {
   cursor: pointer;
   text-decoration: none;
 }
+
+.copy{
+  text-decoration: none;
+}
+
+.card{
+  text-align: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  opacity: 0.7;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.glyphicon{
+  cursor: pointer;
+}
+
+.navbar-right{
+  text-align: center;
+  padding-right: 20px;
+  padding-top: 10px;
+  border: 2px;
+}
+
+/**/
